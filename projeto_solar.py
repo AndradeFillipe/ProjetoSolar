@@ -17,8 +17,8 @@ sns.set(color_codes=True)
 # %matplotlib inline
 
 #carregamento da base de dados da usina
-geracao = pd.read_csv('/content/Plant_1_Generation_Data.csv')
-clima = pd.read_csv('/content/Plant_1_Weather_Sensor_Data.csv')
+geracao = pd.read_csv('dados/Plant_1_Generation_Data.csv')
+clima = pd.read_csv('dados/Plant_1_Weather_Sensor_Data.csv')
 
 #escopo geral da base de dados
 geracao.head()
